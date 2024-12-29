@@ -1,4 +1,4 @@
-export default inSchema = {
+export const inSchema = {
     'Vehicle Number': {
         prop: 'vehicleNumber',
         type: Number

@@ -2,8 +2,8 @@ import { app, BrowserWindow, ipcMain } from 'electron';
 import { fileURLToPath } from 'url';
 import { dirname, join } from 'path';
 import { parseOfficeAsync } from 'officeparser';
-import { inSchema, outSchema } from './Schemas';
-import { Report, Vehicle } from './Classes'
+import { inSchema, outSchema } from './Schemas/index.js';
+import { Report, Vehicle } from './Classes/index.js'
 import writeXlsxFile from 'write-excel-file/node';
 import readXlsxFile from 'read-excel-file/node';
 import fs from 'node:fs';

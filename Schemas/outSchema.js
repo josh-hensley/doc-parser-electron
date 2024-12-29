@@ -1,4 +1,4 @@
-export default outSchema = [
+export const outSchema = [
     {
         column: 'Vehicle Number',
         type: Number,

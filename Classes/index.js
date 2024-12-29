@@ -1,4 +1,4 @@
-import Vehicle from "./Vehicle";
-import Report from "./Report";
+import Vehicle from "./Vehicle.js";
+import Report from "./Report.js";
 
 export { Vehicle, Report }
